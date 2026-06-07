@@ -5,7 +5,7 @@ CREATE TABLE Users (
 );
 
 EXPLAIN
-SELECT * FROM Users WHERE email = 'VietNamxinhtuoi.com';
+SELECT * FROM Users WHERE email = 'example@example.com';
 
 CREATE INDEX idx_users_email
     ON Users USING HASH (email);
